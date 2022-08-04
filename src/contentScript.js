@@ -8,7 +8,6 @@ const randomRange = () => {
 };
 
 const pageContent = document.getElementsByTagName('*');
-console.log(pageContent);
 for (let i = 0; i < pageContent.length; i++) {
   if (pageContent[i].innerHTML.includes('Benedict Cumberbatch')) {
     pageContent[i].innerHTML = pageContent[i].innerHTML.replace(
