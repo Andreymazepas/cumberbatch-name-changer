@@ -1,11 +1,6 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> Cumberbatch Name Changer
 
-My Chrome Extension
-
-## Features
-
-- Feature 1
-- Feature 2
+Changes cumberbatch name to something else, may be buggy, may freeze your browser, may render some pages completely useless
 
 ## Install
 
@@ -14,8 +9,3 @@ My Chrome Extension
 ## Contribution
 
 Suggestions and pull requests are welcomed!.
-
----
-
-This project was bootstrapped with [Chrome Extension CLI](https://github.com/dutiyesh/chrome-extension-cli)
-
