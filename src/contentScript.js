@@ -14,12 +14,14 @@ for (let i = 0; i < pageContent.length; i++) {
       /(?<![-@_.])Benedict Cumberbatch(?![-@_.])/gi,
       names.names[randomRange()]
     );
-  } else if (pageContent[i].innerHTML.includes('Benedict')) {
+  }
+  if (pageContent[i].innerHTML.includes('Benedict')) {
     pageContent[i].innerHTML = pageContent[i].innerHTML.replace(
       /(?<![-@_.])Benedict(?![-@_.])/gi,
       names.names[randomRange()].split(' ')[0]
     );
-  } else if (pageContent[i].innerHTML.includes('Cumberbatch')) {
+  }
+  if (pageContent[i].innerHTML.includes('Cumberbatch')) {
     pageContent[i].innerHTML = pageContent[i].innerHTML.replace(
       /(?<![-@_.])Cumberbatch(?![-@_.])/gi,
       names.names[randomRange()].split(' ')[1]
